@@ -10,9 +10,4 @@ tracker:
                 - fullsend-ai/fullsend
                 - fullsend-ai/agents
 runtime: dummy
-agents:
-    - name: review
-      trigger: "false"
-    - name: retro
-      trigger: event.entity.kind == "change_proposal" && event.transition.kind in ["closed", "merged"]
 mint_url: https://bt-c924629f-bt-mint.fullsend-ai.workers.dev
